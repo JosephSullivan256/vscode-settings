@@ -1,0 +1,127 @@
+{
+    "latex-workshop.latex.outDir": "./",
+    "python.pythonPath": "C:\\Users\\Joseph\\Anaconda3",
+    "editor.insertSpaces": false,
+    "terminal.external.linuxExec": "C:\\WINDOWS\\System32\\cmd.exe",
+    "liveServer.settings.useLocalIp": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.minimap.enabled": false,
+    "latex-workshop.latex.recipes": [
+    
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "Compile Rnw files",
+            "tools": [
+                "rnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "Compile Jnw files",
+            "tools": [
+                "jnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "tectonic",
+            "tools": [
+                "tectonic"
+            ]
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.out": true,
+        "**/*.olean": true
+    },
+    "workbench.tree.indent": 24,
+    "editor.wordBasedSuggestions": false,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe (migrated)": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": []
+        }
+    },
+    "window.zoomLevel": 1,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.rulers": [
+        100,
+    ],
+    "workbench.panel.defaultLocation": "right",
+    "debug.allowBreakpointsEverywhere": true,
+    "editor.wordWrapColumn": 100,
+    "rust-analyzer.inlayHints.typeHints": false,
+    "rust-analyzer.inlayHints.chainingHints": false,
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark+]": {
+            "enabled": true,
+            "rules": {
+                "*.mutable": {
+                    "italic": true,
+                    "underline": false
+                },
+                "*.modification": {
+                    "italic": true,
+                    "underline": false
+                }
+            }
+        }
+    },
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "rust-analyzer.lens.implementations": false,
+    "[rust]": {
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#6b995517"
+            },
+            100
+        ],
+        "editor.wordWrapColumn": 100
+    },
+}
